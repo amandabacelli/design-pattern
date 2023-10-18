@@ -1,6 +1,6 @@
 package br.com.amandabacelli.abstractfactory.landVehicles;
 
-public interface ILandVehicle {
-    void startRoute();
-    void getCargo();
+import br.com.amandabacelli.abstractfactory.factories.IVehicle;
+
+public interface ILandVehicle extends IVehicle {
 }

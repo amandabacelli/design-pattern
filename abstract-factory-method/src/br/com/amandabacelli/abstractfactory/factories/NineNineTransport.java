@@ -5,7 +5,7 @@ import br.com.amandabacelli.abstractfactory.aircrafts.IAircraft;
 import br.com.amandabacelli.abstractfactory.landVehicles.ILandVehicle;
 import br.com.amandabacelli.abstractfactory.landVehicles.Motorcycle;
 
-public class NineNineTransport implements ITransportFactory {
+public class NineNineTransport implements ILandTransportFactory {
 
     @Override
     public ILandVehicle createTransportVehicle() {

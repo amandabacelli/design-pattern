@@ -1,8 +1,7 @@
 package br.com.amandabacelli.abstractfactory.aircrafts;
 
-public interface IAircraft {
+import br.com.amandabacelli.abstractfactory.factories.IVehicle;
 
-    void startRoute();
-    void getCargo();
+public interface IAircraft extends IVehicle {
     void wind();
 }
